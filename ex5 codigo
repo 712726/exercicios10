@@ -1,0 +1,20 @@
+const int led1 = 3;
+const int botao1 = 2;
+  
+void setup()
+{
+  pinMode(botao1, INPUT);
+
+  pinMode(led1, OUTPUT);
+}
+void loop()
+{
+  valor1 = digitalRead(botao1);
+if(valor1){
+}
+
+void apagarTudo(){
+  valor1 = digitalWrite(led1, LOW);  
+    apagarTudo();
+  }
+}
